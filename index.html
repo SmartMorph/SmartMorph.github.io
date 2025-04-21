@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="fa">
 <head>
@@ -14,10 +15,14 @@
     </style>
 </head>
 <body class="bg-gray-100">
+
     <!-- Header -->
     <header class="bg-blue-600 text-white py-6">
         <div class="container mx-auto px-4 flex justify-between items-center">
-            <h1 class="text-3xl font-bold">SmartMorph</h1>
+            <div class="flex items-center gap-4">
+                <img src="logo.png" alt="SmartMorph Logo" class="h-12">
+                <h1 class="text-3xl font-bold">SmartMorph</h1>
+            </div>
             <nav>
                 <ul class="flex space-x-6 space-x-reverse">
                     <li><a href="#home" class="hover:underline">خانه</a></li>
@@ -38,79 +43,34 @@
         </div>
     </section>
 
-    <!-- Products Section -->
-    <section id="products" class="py-16">
-        <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-bold text-center mb-12">محصولات ما</h2>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <div class="bg-white p-6 rounded-lg shadow-md">
-                    <h3 class="text-xl font-semibold mb-2">کفی کفش هوشمند</h3>
-                    <p>کفی‌های تطبیق‌پذیر با فرم پا، مجهز به مواد تغییرشکل‌پذیر و هوش مصنوعی برای تحلیل الگوی راه رفتن.</p>
-                </div>
-                <div class="bg-white p-6 rounded-lg shadow-md">
-                    <h3 class="text-xl font-semibold mb-2">پوشش تصفیه‌کننده هوا</h3>
-                    <p>لایه‌های فوتوکاتالیست برای تصفیه هوا با تحلیل هوشمند الگوهای آلودگی محیط.</p>
-                </div>
-                <div class="bg-white p-6 rounded-lg shadow-md">
-                    <h3 class="text-xl font-semibold mb-2">بسته‌بندی هوشمند مواد غذایی</h3>
-                    <p>بسته‌بندی زیست‌تخریب‌پذیر با قابلیت تشخیص فساد و بهینه‌سازی با هوش مصنوعی.</p>
-                </div>
-                <div class="bg-white p-6 rounded-lg shadow-md">
-                    <h3 class="text-xl font-semibold mb-2">دستبند سلامتی</h3>
-                    <p>دستبند غیرتهاجمی با پارچه رسانا برای اندازه‌گیری علائم حیاتی و تحلیل داده‌ها.</p>
-                </div>
-                <div class="bg-white p-6 rounded-lg shadow-md">
-                    <h3 class="text-xl font-semibold mb-2">عایق دیواری هوشمند</h3>
-                    <p>عایق‌های جذب گرما/سرما و آلودگی با عملکرد تطبیق‌پذیر برای خانه‌های هوشمند.</p>
-                </div>
-                <div class="bg-white p-6 rounded-lg shadow-md">
-                    <h3 class="text-xl font-semibold mb-2">برچسب هوشمند دمایی</h3>
-                    <p>برچسب‌های ارزان برای دارو و واکسن با نمایش گرافیکی تغییرات دمایی خطرناک.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- Team Section -->
     <section id="team" class="bg-gray-200 py-16">
         <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-bold text-center mb-12">تیم ما</h2>
-            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
-                <div class="bg-white p-6 rounded-lg shadow-md text-center">
-                    <h3 class="text-xl font-semibold mb-2">عضو ۱</h3>
-                    <p>متخصص مواد هوشمند و نانوتکنولوژی</p>
+            <h2 class="text-3xl font-bold text-center mb-12">ساختار تیم</h2>
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-2">🧠 CTO (مدیر فنی)</h3>
+                    <p class="mb-1">مسئولیت: طراحی مواد هوشمند، شبیه‌سازی و توسعه عملکرد</p>
+                    <p class="text-sm text-gray-600">تخصص: مهندسی مکانیک/مواد با تخصص در مواد هوشمند، FEM، مواد فعال</p>
                 </div>
-                <div class="bg-white p-6 rounded-lg shadow-md text-center">
-                    <h3 class="text-xl font-semibold mb-2">عضو ۲</h3>
-                    <p>مهندس هوش مصنوعی و یادگیری ماشین</p>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-2">🧑‍💻 AI Lead (هوش مصنوعی)</h3>
+                    <p class="mb-1">مسئولیت: طراحی الگوریتم‌های یادگیری ماشین، تحلیل داده، توسعه اپ‌ها</p>
+                    <p class="text-sm text-gray-600">تخصص: مهندسی کامپیوتر/برق با تخصص در AI و برنامه‌نویسی</p>
                 </div>
-                <div class="bg-white p-6 rounded-lg shadow-md text-center">
-                    <h3 class="text-xl font-semibold mb-2">عضو ۳</h3>
-                    <p>طراح محصول و تجربه کاربری</p>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-2">🧪 CPO (مدیر محصول)</h3>
+                    <p class="mb-1">مسئولیت: طراحی صنعتی، رابط کاربری، ادغام مکانیک + AI</p>
+                    <p class="text-sm text-gray-600">تخصص: مکانیک یا طراحی صنعتی با دید UX و prototyping</p>
                 </div>
-                <div class="bg-white p-6 rounded-lg shadow-md text-center">
-                    <h3 class="text-xl font-semibold mb-2">عضو ۴</h3>
-                    <p>متخصص توسعه کسب‌وکار و بازاریابی</p>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-2">💼 CEO/COO</h3>
+                    <p class="mb-1">مسئولیت: مدیریت تیم، سرمایه‌گذار، طرح توجیهی</p>
+                    <p class="text-sm text-gray-600">تخصص: کسب‌وکار با دانش مهندسی، علاقه‌مند به کارآفرینی</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="py-16">
-        <div class="container mx-auto px-4 text-center">
-            <h2 class="text-3xl font-bold mb-12">تماس با ما</h2>
-            <p class="text-lg mb-6">برای اطلاعات بیشتر با ما در ارتباط باشید:</p>
-            <p class="text-lg">ایمیل: info@smartmorph.com</p>
-            <p class="text-lg">تلفن: ۱۲۳۴۵۶۷۸۹۰</p>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="bg-blue-600 text-white py-6">
-        <div class="container mx-auto px-4 text-center">
-            <p>&copy; 2025 SmartMorph. تمامی حقوق محفوظ است.</p>
-        </div>
-    </footer>
 </body>
 </html>
